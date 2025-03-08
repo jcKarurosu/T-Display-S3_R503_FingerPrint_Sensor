@@ -1,4 +1,7 @@
-""" LilyGo T-DISPLAY-S3 170x320 ST7789 display """
+"""
+ This file was taken from https://github.com/russhughes/s3lcd/tree/main is the specific example for T-Display-S3.
+ LilyGo T-DISPLAY-S3 170x320 ST7789 display 
+"""
 
 from machine import Pin, freq
 import s3lcd

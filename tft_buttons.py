@@ -1,3 +1,4 @@
+# This file was taken from https://github.com/russhughes/s3lcd/tree/main is the specific example for T-Display-S3.
 # input pins for buttons: you will need to change these to match your wiring
 
 from machine import Pin
