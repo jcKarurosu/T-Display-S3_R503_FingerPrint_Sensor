@@ -2,7 +2,9 @@
 
 Example of how to use the R503 FingerPrint sensor using the T-Display S3 board from LILYGO. The code creates a simple screen menu on the display to control the main functions of the sensor.
 
-![project-pic](https://github.com/jcKarurosu/ImagesWarehouse/blob/8dad78f2a947b1ebba3473cf8837d0922c495943/T-Display-S3_R503_Sensor/setup.jpg)
+<div style="text-align:center;">
+  <img src="https://github.com/jcKarurosu/ImagesWarehouse/blob/8dad78f2a947b1ebba3473cf8837d0922c495943/T-Display-S3_R503_Sensor/setup.jpg" alt="project-pic" />
+</div>
 
 ## Files
 
@@ -31,7 +33,9 @@ There are 4 files:
 
 Make the connections that are shown in the next table
 
-![Conections Screenshot](https://github.com/jcKarurosu/ImagesWarehouse/blob/8dad78f2a947b1ebba3473cf8837d0922c495943/T-Display-S3_R503_Sensor/Conections.png)
+<div style="text-align:center;">
+	<img src="https://github.com/jcKarurosu/ImagesWarehouse/blob/8dad78f2a947b1ebba3473cf8837d0922c495943/T-Display-S3_R503_Sensor/Conections.png" alt="Conections Screenshot" />
+</div>
 
 Use a USB type-C cable to connect the T-Display-S3 to a USB port on your PC.
 
@@ -39,10 +43,22 @@ Use a USB type-C cable to connect the T-Display-S3 to a USB port on your PC.
 
 1. Open [Thonny](https://thonny.org/)
 2. Set the Interpreter in Thonny by: Menu Tools > Options > Interpreter tab > MicroPython (ESP32)
-	![Thonny interpreter config](https://github.com/jcKarurosu/ImagesWarehouse/blob/8dad78f2a947b1ebba3473cf8837d0922c495943/T-Display-S3_R503_Sensor/Thonny_interprete.png)
+
+	<div style="text-align:center;">
+  		<img src="https://github.com/jcKarurosu/ImagesWarehouse/blob/8dad78f2a947b1ebba3473cf8837d0922c495943/T-Display-S3_R503_Sensor/Thonny_interprete.png" alt="Thonny interpreter config" />
+	</div>
+
 3. At the lower right corner click on the menu and select MicroPython (ESP32) on your COM port (The port number could be different on your computer) In order to see the Micropython option here, your board has to be already connected to you PC.
-	![Selecting Board MicroPython](https://github.com/jcKarurosu/ImagesWarehouse/blob/8dad78f2a947b1ebba3473cf8837d0922c495943/T-Display-S3_R503_Sensor/Select_Board.png)
+
+	<div style="text-align:center;">
+  		<img src="https://github.com/jcKarurosu/ImagesWarehouse/blob/8dad78f2a947b1ebba3473cf8837d0922c495943/T-Display-S3_R503_Sensor/Select_Board.png" alt="Selecting Board MicroPython" />
+	</div>
+
 4. On the top file explorer pane (left side of the screen) open the folder where you saved the files, then select all of them (3 files, and 1 folder with 1 file), rigth click and from the menu click on `Upload to / `
-	![Uploading files to board](https://github.com/jcKarurosu/ImagesWarehouse/blob/8dad78f2a947b1ebba3473cf8837d0922c495943/T-Display-S3_R503_Sensor/Subir_archivos_a_tarjeta.png)
+
+	<div style="text-align:center;">
+		<img src="https://github.com/jcKarurosu/ImagesWarehouse/blob/8dad78f2a947b1ebba3473cf8837d0922c495943/T-Display-S3_R503_Sensor/Subir_archivos_a_tarjeta.png" alt="Uploading files to board" />
+	</div>
+
 5. The files will be uploaded to the T-Display-S3 and will appear on the bottom file explorer pane. Double-click on the file main.py, you will see the code. Then Click on the `Run Script`  button (green arrow icon) or press `F5`.
 6. Have fun
